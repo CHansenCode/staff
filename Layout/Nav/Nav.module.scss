@@ -6,19 +6,15 @@
 
   height: 3rem;
   width: 100vw;
-
-  background-color: #fff;
 }
 
 .header nav {
   height: 100%;
 
   display: grid;
-  grid-template: 'a b' 1fr / 1fr auto;
+  grid-template: 'a b c' 1fr / auto auto 1fr;
   align-items: center;
   justify-content: center;
 
-  > * {
-    height: 100%;
-  }
+  overflow: hidden;
 }
