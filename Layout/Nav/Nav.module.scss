@@ -1,0 +1,24 @@
+.header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+
+  height: 3rem;
+  width: 100vw;
+
+  background-color: #fff;
+}
+
+.header nav {
+  height: 100%;
+
+  display: grid;
+  grid-template: 'a b' 1fr / 1fr auto;
+  align-items: center;
+  justify-content: center;
+
+  > * {
+    height: 100%;
+  }
+}
